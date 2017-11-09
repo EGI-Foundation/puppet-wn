@@ -1,0 +1,23 @@
+{
+  "author": "WLCG",
+  "dependencies": [
+    {
+      "name": "puppet/fetchcrl",
+      "version_requirement": "\u003e\u003d 1.1.1"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "\u003e\u003d 2.0.0"
+    },
+  ],
+  "description": "This package provides modules for managing a WN",
+  "license": "Apache-2.0",
+  "name": "lcgdm-wn",
+  "operatingsystem_support": [],
+  "project_page": "https://twiki.cern.ch/twiki/bin/view/LCG/EL7WNMiddleware",
+  "requirements": [],
+  "source": "https://github.com/cern-it-sdc-id/puppet-wn",
+  "summary": "Package for managing a WN",
+  "tags": [],
+  "version": "0.1.0"
+}
