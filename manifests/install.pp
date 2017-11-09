@@ -2,7 +2,7 @@ class wn::install () inherits wn::params {
   
   include fetchcrl
 
-  if $managerepo {
+  if $manage_repo {
     $repos.each |$item| {
       yumrepo{$item:
         enabled  => 1,

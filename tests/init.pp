@@ -1,1 +1,1 @@
-include ::wn
+include wn

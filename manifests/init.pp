@@ -1,6 +1,6 @@
-class wn () inherits wn::params {
+class wn ()  {
 
-  Class[wn::install] -> Class[wn::config]
+  Class[wn::install] -> Class[wn::config] 
 
   class{"wn::install":}
   class{"wn::config":}

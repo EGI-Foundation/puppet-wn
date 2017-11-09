@@ -8,11 +8,11 @@
     {
       "name": "puppetlabs/stdlib",
       "version_requirement": "\u003e\u003d 2.0.0"
-    },
+    }
   ],
   "description": "This package provides modules for managing a WN",
   "license": "Apache-2.0",
-  "name": "lcgdm-wn",
+  "name": "wlcg-wn",
   "operatingsystem_support": [],
   "project_page": "https://twiki.cern.ch/twiki/bin/view/LCG/EL7WNMiddleware",
   "requirements": [],
