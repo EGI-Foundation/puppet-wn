@@ -2,14 +2,8 @@ class wn::install () inherits wn::params {
   
   include fetchcrl
 
-  if $manage_repo {
-    $repos.each |$item| {
-      yumrepo{$item:
-        enabled  => 1,
-        baseurl  => $item,
-        gpgcheck => 0,
-      }
-    }
+  if $install_repos {
+    create_resources(yumrepo,$repos)
   }
   # package installation
   package { 'wn':

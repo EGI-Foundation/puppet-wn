@@ -4,5 +4,6 @@ class wn ()  {
 
   class{"wn::install":}
   class{"wn::config":}
+  
+} 
 
-}
