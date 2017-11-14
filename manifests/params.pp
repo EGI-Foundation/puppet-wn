@@ -1,5 +1,6 @@
 class wn::params {
   $install_repos = true;
+  $configure_vos = true;
 
   #repos
   
