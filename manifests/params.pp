@@ -1,6 +1,7 @@
 class wn::params {
   $install_repos = true;
   $configure_vos = true;
+  $configure_users = true;
 
   #repos
   
@@ -90,5 +91,41 @@ class wn::params {
           'dn'     => '/DC=ch/DC=cern/OU=computers/CN=lcg-voms2.cern.ch',
           'ca_dn'  =>  '/DC=ch/DC=cern/CN=CERN Grid Certification Authority'
        }]
-   }
+  } 
+
+  $resources = {
+    'accounts'    => true,
+    'gridmapdir'  => false,
+    'gridmapfile' => false,
+    'groupmapfile' => false
+  }
+
+  $dirs_path = {
+    '/scratch/pools_home' => '/7777/0755',
+    '/etc/grid-security/vomsdir' => '',
+    '/etc/vomses' => ''
+  }
+
+  $home_path = '/scratch/pools_home'
+  $pool_users = {
+  # ATLAS: atlas /atlas/ROLE=lcgadmin /atlas/ROLE=production /atlas/ROLE=pilot
+    '/testvo' => { 
+       'ensure'    => 'present',
+       'group'     => 'testvo',
+       'gid'       => 1000000,
+       'vo_group'  => 'testvo',
+       'uid_range' => '1000000-1000001',
+       'users_num' => 1,
+       'comment'   => 'ATLAS Generic'
+     },
+     '/testvo/Role=lcgadmin' => {
+       'ensure'    => 'present',
+       'group'     => 'testvosgm',
+       'gid'       => 2000001,
+       'vo_group'  => 'testvo',
+       'uid_range' => '2000001-2000002',
+       'users_num' => 1,
+       'comment'   => 'ATLAS Software Manager'
+     }
+  }
 }
