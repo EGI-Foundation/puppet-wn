@@ -5,7 +5,7 @@ This is the puppet-wn module, it installs the wn middleware and configure users 
 ## Dependencies
 The Module depends on:
 * puppet-fetchrl (https://github.com/voxpupuli/puppet-fetchcrl)
-* puppet-stdlibs (https://github.com/puppetlabs/puppetlabs-stdlib)
+* puppet-stdlib (https://github.com/puppetlabs/puppetlabs-stdlib)
 * puppet-voms_client (https://github.com/HEP-Puppet/puppet-voms_client)
 * puppet-localfolder (https://github.com/HEP-Puppet/puppet-localfolder)
 * puppet-gridaccounts (https://github.com/HEP-Puppet/puppet-grid_accounts)
