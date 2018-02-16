@@ -1,6 +1,6 @@
 ## puppet-wn module
 
-This is the puppet-wn module, it configures the wn middleware in addition to users and VOMS 
+This is the puppet-wn module, it installs the wn middleware and configure users and VOMS 
 
 ## Dependencies
 The Module depends on:
