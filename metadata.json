@@ -16,7 +16,7 @@
   "operatingsystem_support": [],
   "project_page": "https://twiki.cern.ch/twiki/bin/view/LCG/EL7WNMiddleware",
   "requirements": [],
-  "source": "https://github.com/cern-it-sdc-id/puppet-wn",
+  "source": "https://github.com/HEP-Puppet/puppet-wn",
   "summary": "Package for managing a WN",
   "tags": [],
   "version": "0.0.1"
