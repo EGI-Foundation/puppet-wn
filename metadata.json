@@ -8,14 +8,6 @@
     {
       "name": "puppetlabs/stdlib",
       "version_requirement": ">= 2.0.0"
-    },
-    {
-      "name": "wlcg/voms_client",
-      "version_requirement": ">= 0.0.1"
-    },
-    {
-      "name": "wlcg/grid_accounts",
-      "version_requirement": ">= 0.0.1"
     }
   ],
   "description": "This package provides modules for managing a WN",
