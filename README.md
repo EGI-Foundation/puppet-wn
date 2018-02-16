@@ -8,7 +8,7 @@ The Module depends on:
 * puppet-stdlib (https://github.com/puppetlabs/puppetlabs-stdlib)
 * puppet-voms_client (https://github.com/HEP-Puppet/puppet-voms_client)
 * puppet-localfolder (https://github.com/HEP-Puppet/puppet-localfolder)
-* puppet-gridaccounts (https://github.com/HEP-Puppet/puppet-grid_accounts)
+* puppet-grid_accounts (https://github.com/HEP-Puppet/puppet-grid_accounts)
 
 ## Configuration
 
